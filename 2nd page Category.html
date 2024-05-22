@@ -1,0 +1,618 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Category</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<style>
+	*{margin: 0;}
+		
+		.container
+		{
+			width: 1520px;
+			height: 1120px;
+			position: relative;
+			margin: 0px auto;
+			background-image:url("download (8).jpg");
+			background-size:cover;
+			
+		}
+	    .logo
+		{
+			width: 150px;
+			position: absolute;
+		}
+	    .logo img
+		{
+			width: 160px;
+			margin-left: 100px;
+		}
+	   .navbar
+		{
+			
+			position: absolute;
+			margin-left: 480px;
+			margin-top: 50px;
+		}
+		.navbar a
+		{
+			text-decoration: none;
+			color: whitesmoke;
+			font-size: 25px;
+			font-family: Calibri;
+			font-weight: bold;
+			padding-left: 50px;
+			
+		}
+		.navbar a1
+		{
+			color:darkorange;
+			font-size: 25px;
+			font-family: Calibri;
+			font-weight: bold;
+			padding-left: 50px;
+		}
+		hr
+		{
+			width: 30px;
+			color: darkorange;
+			margin-left: 165px;
+		}
+	    button
+		{
+			width: 110px;
+			height: 40px;
+			margin-left: 250px;
+			border-radius: 45px;
+			background: linear-gradient(180deg, rgba(255,155,61,1) 0%, rgba(255,128,0,1) 100%);
+			color: whitesmoke;
+			font-size: 18px;
+			outline: none;
+			border: none;
+		}
+		button:hover
+		{
+			background: linear-gradient(180deg, rgba(255,129,33,1) 0%, rgba(255,0,14,1) 100%);
+		}
+	     h2
+		{
+			color: whitesmoke;
+			text-align: center;
+			font-size: 100px;
+			font-family: "Playball", cursive;
+            font-weight: 400;
+            font-style: normal;
+			margin-top: 200px;
+			margin-left: 580px;
+			position:absolute;
+		}
+	
+	   .place1
+		{
+			width: 250px;
+			height: 305px;
+			border-radius: 20px;
+			box-shadow: 2px 2px 4px grey;
+			margin-top: 380px;
+			margin-left: 300px;
+			position: absolute;
+		}
+		.place1 img
+		{
+			width: 275px;
+			height: 335px;
+			position: absolute;
+			margin-left: -8px;
+			margin-top: -8px;
+			border-radius: 20px;
+			animation-name: turn;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			transition: 1s;
+		}
+		.place1:hover
+		{
+			transform:scale(1.2, 1.2);
+		}
+		.place2
+		{
+			width: 250px;
+			height: 303px;
+			border-radius: 20px;
+			box-shadow: 2px 2px 4px grey;
+			margin-top: 385px;
+			margin-left: 600px;
+			position: absolute;
+		}
+		.place2 img
+		{
+			width: 285px;
+			height: 335px;
+			position: absolute;
+			margin-left: -15px;
+			margin-top: -13px;
+			animation-name: turn;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			transition: 1s;
+		}
+		.place2:hover
+		{
+			transform:scale(1.2, 1.2);
+		}
+		
+		.place3
+		{
+			width: 250px;
+			height: 303px;
+			border-radius: 20px;
+			box-shadow: 2px 2px 4px grey;
+			margin-top: 390px;
+			margin-left: 900px;
+			position: absolute;
+		}
+		.place3 img
+		{
+			width: 285px;
+			height: 334px;
+			position: absolute;
+			margin-left: -13px;
+			margin-top: -15px;
+			animation-name: turn;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			transition: 1s;
+		}
+		.place3:hover
+		{
+			transform:scale(1.2, 1.2);
+		}
+	
+	.place4
+		{
+			width: 150px;
+			height: 198px;
+			border-radius: 20px;
+			box-shadow: 2px 2px 4px grey;
+			margin-top: 730px;
+			margin-left: 300px;
+			position: absolute;
+		}
+		.place4 img
+		{
+			width: 275px;
+			height: 325px;
+			position: absolute;
+			border-radius: 20px;
+			margin-left: -8px;
+			margin-top: -8px;
+			animation-name: turn;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			transition: 1s;
+		}
+		.place4:hover
+		{
+			transform:scale(1.2, 1.2)
+	
+	
+		}
+	.place5
+		{
+			width: 250px;
+			height: 303px;
+			border-radius: 20px;
+			box-shadow: 2px 2px 4px grey;
+			margin-top: 730px;
+			margin-left: 600px;
+			position: absolute;
+		}
+		.place5 img
+		{
+			width: 280px;
+			height: 338px;
+			position: absolute;
+			margin-left: -15px;
+			margin-top: -13px;
+			animation-name: turn;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			transition: 1s;
+		}
+		.place5:hover
+		{
+			transform:scale(1.2, 1.2);
+		}
+	
+	.place6
+		{
+			width: 250px;
+			height: 303px;
+			border-radius: 20px;
+			box-shadow: 2px 2px 4px grey;
+			margin-top: 730px;
+			margin-left: 900px;
+			position: absolute;
+		}
+		.place6 img
+		{
+			width: 290px;
+			height: 334px;
+			position: absolute;
+			margin-left: -13px;
+			margin-top: -15px;
+			animation-name: turn;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			transition: 1s;
+		}
+		.place6:hover
+		{
+			transform:scale(1.2, 1.2);
+		}
+	    
+		.container2
+		{
+			width: 1520px;
+			height: 1920px;
+			position: relative;
+			margin: 0px auto;
+			background:linear-gradient(180deg, rgba(188,198,210,1) 0%, rgba(255,255,255,1) 52%, rgba(237,237,237,1) 100%);
+		}
+	    
+		h3
+		{
+			color:darkorange;
+			text-align: center;
+			font-size: 60px;
+			font-family: "Playball", cursive;
+            font-weight: 400;
+            font-style: normal;
+			margin-top: 150px;
+			margin-left: 450px;
+			position:absolute;
+		}
+	    h4
+		{
+			color:#000794;
+			text-align: center;
+			font-size: 60px;
+			font-family: "Playball", cursive;
+            font-weight: 400;
+            font-style: normal;
+			margin-top: 150px;
+			margin-left: 910px;
+			position:absolute;
+		}
+		
+		.mode
+		{
+			position: absolute;
+			margin-top: 1100px;
+			
+		}
+	
+		.shape1
+		{
+			width: 190px;
+			height: 180px;
+			border-radius: 30px;
+			background-color: #0E1856;
+			margin-left:300px;
+		    margin-top: -800px;
+			position: absolute;
+			transition: 1s;
+			animation-direction: alternate;
+			animation-name: turn;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+		.shape1:hover
+		{
+			transform: scale(1.2, 1.2);
+			
+		}
+		
+		h6
+		{
+			color:whitesmoke;
+			font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+			font-size: 30px;
+			text-align:center;
+			text-align-last: inherit;
+			position: absolute;
+			margin-top: 60px;
+			margin-left: 60px;
+		}
+		.shape2
+		{
+			width: 190px;
+			height: 180px;
+			border-radius: 30px;
+			background-color: #0E1856;
+			margin-left:530px;
+		    margin-top: -800px;
+			position: absolute;
+			color: #004ED9;
+			transition: 1s;
+			animation-direction: alternate;
+			animation-name: turn;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+		.shape2:hover
+		{
+			transform: scale(1.2, 1.2);
+			
+		}
+		
+		h7
+		{
+			color:whitesmoke;
+			font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+			font-size: 30px;
+			text-align:center;
+			text-align-last: inherit;
+			position: absolute;
+			margin-top: 60px;
+			margin-left: 60px;
+		}
+		.shape3
+		{
+			width: 190px;
+			height: 180px;
+			border-radius: 30px;
+			background-color: #0E1856;
+			margin-left:760px;
+		    margin-top: -800px;
+			position: absolute;
+			color: #004ED9;
+			transition: 1s;
+			animation-direction: alternate;
+			animation-name: turn;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+		.shape3:hover
+		{
+			transform: scale(1.2, 1.2);
+			
+		}
+		
+		h8
+		{
+			color:whitesmoke;
+			font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+			font-size: 30px;
+			text-align:center;
+			text-align-last: inherit;
+			position: absolute;
+			margin-top: 60px;
+			margin-left: 70px;
+		}
+		.shape4
+		{
+			width: 190px;
+			height: 180px;
+			border-radius: 30px;
+			background-color: #0E1856;
+			margin-left:990px;
+		    margin-top: -800px;
+			position: absolute;
+			color: #004ED9;
+			transition: 1s;
+			animation-direction: alternate;
+			animation-name: turn;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+		.shape4:hover
+		{
+			transform: scale(1.2, 1.2);
+			
+		}
+		h9
+		{
+			color:whitesmoke;
+			font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+			font-size: 30px;
+			text-align:center;
+			text-align-last: inherit;
+			position: absolute;
+			margin-top: 60px;
+			margin-left: 70px;
+		}
+		
+		h5
+		{
+			
+			color:#0E1856;
+			text-align: center;
+			font-size: 60px;
+			font-family: "Playball", cursive;
+            font-weight: 400;
+            font-style: normal;
+			margin-top: 650px;
+			margin-left: 600px;
+			position:absolute;
+		
+		}
+		
+		.gallery
+		{
+			position: absolute;
+			margin-left: 100px;
+			margin-top: 780px;
+		}
+		
+		.gallery img
+		{
+			width: 1300px;
+			height: 800px;	
+		}
+		
+		.footer
+		{
+			width: 1520px;
+			height: 400px;
+			background-color: #0e1856;
+			position: absolute;
+			margin-top: 1800px;
+		}
+		
+		.footer img
+		{
+			width: 250px;
+			height: 300px;
+			position: absolute;
+			margin-top: 50px;
+			margin-left: 250px;
+		}
+		
+		h10
+		{
+			color: whitesmoke;
+			font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+			font-size: 25px;
+			position: absolute;
+			margin-top: 80px;
+			margin-left: 650px;
+		}
+		
+		h11 a
+		{
+			color: whitesmoke;
+			font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 200;
+            font-style: normal;
+			font-size: 21px;
+			position: absolute;
+			margin-top: 150px;
+			margin-left: 655px;
+			text-decoration: none;
+		}
+		h12
+		{
+			color: whitesmoke;
+			font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+			font-size: 25px;
+			position: absolute;
+			margin-top: -70px;
+			margin-left: 950px;
+		}
+		
+		h13 a
+		{
+			color: whitesmoke;
+			font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 200;
+            font-style: normal;
+			font-size: 21px;
+			position: absolute;
+			margin-top: 0px;
+			margin-left: 955px;
+			text-decoration: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+	<div class="logo"><img src="Travel Website Logo (white).png"></div>
+	<div class="navbar">
+		    <a href="index.html">Home</a>
+			<a1 href="">Catogery</a1>
+			<a href="">Blog</a>
+		    <a href="">About Us</a>
+		    
+		<button><b>Log In</b></button>
+		<hr color="#FF7600">
+		</div>
+
+		<h2>Explore</h2>
+		
+		       <div class="place1"><img src="Agra.png"></div>
+				<div class="place2"><img src="Delhi.png"></div>
+				<div class="place3"><img src="Viransi.png"></div>
+		       <div class="place4"><img src="Kolkata.png"></div>
+				<div class="place5"><img src="Mumbai.png"></div>
+				<div class="place6"><img src="Jaipur.png"></div>
+		
+		</div> 
+	
+		<div class="container2">
+		
+		<h3>Work, Travel, Save </h3> <h4>Repate</h4>
+			
+			<div class="mode">
+			
+			<div class="shape1"><h6><i class="fa-solid fa-plane-up fa-sm"></i><br> Flight</h6></div>
+				
+				<div class="shape2"><h7><i class="fa-solid fa-train-tram"></i><br> Train</h7></div>
+				
+				<div class="shape3"><h8><i class="fa-solid fa-bus"></i><br> Bus</h8></div>
+				
+				<div class="shape4"><h9><i class="fa-solid fa-car"></i><br> Car</h9></div>
+				
+			</div>
+			
+		
+			<h5>Our Gallery</h5>
+			
+			<div class="gallery"><img src="gallery img.png"></div>
+			
+			<div class="footer">
+				<img src="Social media with logo.png">
+				
+				<h10>Quick Links</h10>
+				<h11><a href="index.html">Home</a><br><br>
+				   <a href="">Category</a><br><br>
+				   <a href="">Blog</a><br><br>
+				   <a href="">About Us</a><br><br>
+                </h11>
+				
+					<h12>Contact</h12>
+				<h13>
+					
+					<a href=""><i class="fa-solid fa-location-dot" style="color: #ff7300;"></i>&nbsp;&nbsp;Vinit Heights, station <br>road, Andheri</a><br><br><br><br>
+				   <a href=""><i class="fa-solid fa-phone" style="color: #ff7300;"></i>&nbsp;&nbsp;+91  9455454545</a><br><br>
+				   <a href=""><i class="fa-solid fa-envelope" style="color: #ff7b00;"></i>&nbsp;&nbsp;wanderons@travel.com</a><br><br>
+				  
+                </h13>
+			</div>
+		</div>
+
+</body>
+</html>
